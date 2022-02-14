@@ -1,4 +1,4 @@
-package com.example.piazza.ui.gallery;
+package com.example.piazza.ui.treballadors;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,18 +12,17 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.piazza.R;
 import com.example.piazza.databinding.FragmentGalleryBinding;
 
-public class GalleryFragment extends Fragment {
+public class TreballadorsFragment extends Fragment {
 
-    private GalleryViewModel galleryViewModel;
+    private TreballadorsViewModel galleryViewModel;
     private FragmentGalleryBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
+                new ViewModelProvider(this).get(TreballadorsViewModel.class);
 
         binding = FragmentGalleryBinding.inflate(inflater, container, false);
         View root = binding.getRoot();

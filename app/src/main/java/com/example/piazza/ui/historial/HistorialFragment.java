@@ -1,4 +1,4 @@
-package com.example.piazza.ui.slideshow;
+package com.example.piazza.ui.historial;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,18 +12,17 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.piazza.R;
 import com.example.piazza.databinding.FragmentSlideshowBinding;
 
-public class SlideshowFragment extends Fragment {
+public class HistorialFragment extends Fragment {
 
-    private SlideshowViewModel slideshowViewModel;
+    private HistorialViewModel slideshowViewModel;
     private FragmentSlideshowBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         slideshowViewModel =
-                new ViewModelProvider(this).get(SlideshowViewModel.class);
+                new ViewModelProvider(this).get(HistorialViewModel.class);
 
         binding = FragmentSlideshowBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
