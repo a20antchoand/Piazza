@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1094133756219",
+    "project_id": "piazza-control-horario",
+    "storage_bucket": "piazza-control-horario.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094133756219:android:fd8b6ebc64284b8836071e",
+        "android_client_info": {
+          "package_name": "com.example.piazza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094133756219-ba3f1atun4l5mjqmb97kqcar7og116ps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzNTkYSuCfXCDXUqc5OidujXNZQDoD6Rc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094133756219-ba3f1atun4l5mjqmb97kqcar7og116ps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
